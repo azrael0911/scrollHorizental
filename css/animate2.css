@@ -1,0 +1,281 @@
+@-webkit-keyframes animate-bright {
+    0% {
+        filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="1" /><feFuncG type="linear" slope="1" /><feFuncB type="linear" slope="1" /></feComponentTransfer></filter></svg>#filter');
+		-webkit-filter: brightness(1);
+        filter: brightness(1);
+    }
+    100% {
+        filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="1.5" /><feFuncG type="linear" slope="1.5" /><feFuncB type="linear" slope="1.5" /></feComponentTransfer></filter></svg>#filter');
+		-webkit-filter: brightness(1.5);
+        filter: brightness(1.5);
+    }
+}
+@keyframes animate-bright {
+    0% {
+        filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="1" /><feFuncG type="linear" slope="1" /><feFuncB type="linear" slope="1" /></feComponentTransfer></filter></svg>#filter');
+		-webkit-filter: brightness(1);
+        filter: brightness(1);
+    }
+    100% {
+        filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="1.5" /><feFuncG type="linear" slope="1.5" /><feFuncB type="linear" slope="1.5" /></feComponentTransfer></filter></svg>#filter');
+		-webkit-filter: brightness(1.5);
+        filter: brightness(1.5);
+    }
+}
+@-webkit-keyframes animate-glow {
+    0% {
+        -webkit-box-shadow: rgba(255, 255, 255, 0.2) 0 0 1px, rgba(255, 255, 255, 0.2) 0 0 1px inset;
+        box-shadow: rgba(255, 255, 255, 0.2) 0 0 1px, rgba(255, 255, 255, 0.2) 0 0 1px inset;
+    }
+    100% {
+        -webkit-box-shadow: #fff 0 0 16px, #fff 0 0 16px inset;
+        box-shadow: #fff 0 0 16px, #fff 0 0 16px inset;
+    }
+}
+@keyframes animate-glow {
+    0% {
+        -webkit-box-shadow: rgba(255, 255, 255, 0.2) 0 0 1px, rgba(255, 255, 255, 0.2) 0 0 1px inset;
+        box-shadow: rgba(255, 255, 255, 0.2) 0 0 1px, rgba(255, 255, 255, 0.2) 0 0 1px inset;
+    }
+    100% {
+        -webkit-box-shadow: #fff 0 0 16px, #fff 0 0 16px inset;
+        box-shadow: #fff 0 0 16px, #fff 0 0 16px inset;
+    }
+}
+@-webkit-keyframes animate-fadein {
+    0% {
+        opacity: 0;
+        filter: alpha(opacity = 0);
+    }
+    100% {
+        opacity: 1;
+        filter: alpha(opacity = 100);
+    }
+}
+@keyframes animate-fadein {
+    0% {
+        opacity: 0;
+        filter: alpha(opacity = 0);
+    }
+    100% {
+        opacity: 1;
+        filter: alpha(opacity = 100);
+    }
+}
+@-webkit-keyframes animate-fadeout {
+    0% {
+        opacity: 1;
+        filter: alpha(opacity = 100);
+    }
+    100% {
+        opacity: 0;
+        filter: alpha(opacity = 0);
+    }
+}
+@keyframes animate-fadeout {
+    0% {
+        opacity: 1;
+        filter: alpha(opacity = 100);
+    }
+    100% {
+        opacity: 0;
+        filter: alpha(opacity = 0);
+    }
+}
+@-webkit-keyframes animate-content-in {
+    0% {
+        opacity: 0;
+        filter: alpha(opacity = 0);
+		-webkit-transform: translate(0, 20px) scale3d(0.95, 0.95, 1);
+        transform: translate(0, 20px) scale3d(0.95, 0.95, 1);
+    }
+    100% {
+        opacity: 1;
+        filter: alpha(opacity = 100);
+		-webkit-transform: translate(0, 0) scale3d(1, 1, 1);
+        transform: translate(0, 0) scale3d(1, 1, 1);
+    }
+}
+@keyframes animate-content-in {
+    0% {
+        opacity: 0;
+        filter: alpha(opacity = 0);
+		-webkit-transform: translate(0, 20px) scale3d(0.95, 0.95, 1);
+        transform: translate(0, 20px) scale3d(0.95, 0.95, 1);
+    }
+    100% {
+        opacity: 1;
+        filter: alpha(opacity = 100);
+		-webkit-transform: translate(0, 0) scale3d(1, 1, 1);
+        transform: translate(0, 0) scale3d(1, 1, 1);
+    }
+}
+@-webkit-keyframes animate-content-out {
+    0% {
+        opacity: 1;
+        filter: alpha(opacity = 100);
+		-webkit-transform: translate(0, 0) scale3d(1, 1, 1);
+        transform: translate(0, 0) scale3d(1, 1, 1);
+    }
+    100% {
+        opacity: 0;
+        filter: alpha(opacity = 0);
+		-webkit-transform: translate(0, 20px) scale3d(0.95, 0.95, 1);
+        transform: translate(0, 20px) scale3d(0.95, 0.95, 1);
+    }
+}
+@keyframes animate-content-out {
+    0% {
+        opacity: 1;
+        filter: alpha(opacity = 100);
+		-webkit-transform: translate(0, 0) scale3d(1, 1, 1);
+        transform: translate(0, 0) scale3d(1, 1, 1);
+    }
+    100% {
+        opacity: 0;
+        filter: alpha(opacity = 0);
+		-webkit-transform: translate(0, 20px) scale3d(0.95, 0.95, 1);
+        transform: translate(0, 20px) scale3d(0.95, 0.95, 1);
+    }
+}
+.navList_hover  {
+	filter:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="1.2" /><feFuncG type="linear" slope="1.2" /><feFuncB type="linear" slope="1.2" /></feComponentTransfer></filter></svg>#filter');
+	-webkit-filter:brightness(1.2);
+	filter:brightness(1.2);
+	-webkit-animation:animate-glow 0.5s linear 0s infinite alternate;
+	animation:animate-glow 0.5s linear 0s infinite alternate;
+}
+@keyframes metro {
+    0% {
+		left: -2299px;
+    }
+    100% {
+		left: 12299px;
+    }
+}
+@keyframes ambulance {
+    0% {
+		left: 1186px;
+    }
+	89.2% {
+		left: 10485px;
+    }
+	89.21% {
+		left: -485px;
+    }
+    100% {
+		left: 1186px;
+    }
+}
+@keyframes carRed {
+    0% {
+		left: 2939px;
+    }
+	73% {
+		left: 10485px;
+    }
+	73.01% {
+		left: -446px;
+    }
+    100% {
+		left: 2939px;
+    }
+}
+@keyframes carYellow {
+    0% {
+		left: 5380px;
+    }
+	49% {
+		left: 10486px;
+    }
+	49.01% {
+		left: -486px;
+    }
+    100% {
+		left: 5380px;
+    }
+}
+@keyframes carFire {
+    0% {
+		left: -223px;
+    }
+	3% {
+		left: -554px;
+    }
+	3.01% {
+		left: 10554px;
+    }
+    100% {
+		left: -223px;
+    }
+}
+@keyframes carGreen {
+    0% {
+		left: 3070px;
+    }
+	28.7% {
+		left: -342px;
+    }
+	28.71% {
+		left: 10342px;
+    }
+    100% {
+		left: 3070px;
+    }
+}
+@keyframes carBlue {
+    0% {
+		left: 4203px;
+    }
+	39.2% {
+		left: -361px;
+    }
+	39.21% {
+		left: 10361px;
+    }
+    100% {
+		left: 4203px;
+    }
+}
+@keyframes carPolice {
+    0% {
+		left: 4953px;
+    }
+	45.7% {
+		left: -423px;
+    }
+	45.71% {
+		left: 10423px;
+    }
+    100% {
+		left: 4953px;
+    }
+}
+@keyframes bus {
+    0% {
+		left: 7264px;
+    }
+	64.4% {
+		left: -637px;
+    }
+	64.41% {
+		left: 10637px;
+    }
+    100% {
+		left: 7264px;
+    }
+}
+@keyframes truck {
+    0% {
+		left: 8808px;
+    }
+	82% {
+		left: -737px;
+    }
+	82.01% {
+		left: 10737px;
+    }
+    100% {
+		left: 8808px;
+    }
+}

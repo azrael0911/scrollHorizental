@@ -1,0 +1,239 @@
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+	padding: 0;
+	margin: 0;
+}
+ol,ul {
+	list-style: none;
+}
+html {
+	overflow-y: scroll;
+}
+body {
+	margin: 0;
+	/* [disabled]background-color: #ccc; */
+	height: 10000px;
+	overflow-x: hidden;
+}
+img {
+	border: none;
+	/* [disabled]vertical-align: bottom; */
+	display: block;
+}
+* {
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+a {
+	blr:expression(this.onFocus=this.blur());
+	-webkit-tap-highlight-color: rgba(0,0,0,0);  
+	-webkit-tap-highlight-color: transparent;
+}
+a:hover {
+	/* [disabled]text-decoration: underline; */
+}
+a:focus {
+	-moz-outline-style: none;
+}
+strong {
+	/* [disabled]color: #C03; */
+	/* [disabled]font-weight: bold; */
+}
+input,button,select,textarea {
+	outline:none;
+}
+nav {
+	position: fixed;
+	width: 12px;
+	right: 15px;
+	top: 50%;
+	bottom: 50%;
+	height: 80px;
+	z-index: 999;
+}
+nav a {
+	display: block;
+	width: 12px;
+	height: 12px;
+	border: 1px solid #fff;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	background-color: #21a97e;
+	margin-bottom: 10px;
+}
+nav a:hover, nav a.active {
+	border: 1px solid #21a97e;
+	background-color: #fff;
+}
+#container, #content {
+	position: relative;
+}
+#header {
+	position: absolute;
+}
+.bg {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 10000px;
+	height: 1080px;
+	background: url(../images/sky.jpg) repeat-x left bottom;
+}
+.cloud {
+	position: fixed;
+	left: 0;
+}
+.road {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+.building {
+	position: fixed;
+	bottom: 404px;
+}
+.building2 {
+	position: fixed;
+	left: 300px;
+	bottom: 403px;
+}
+.metro {
+	position: fixed;
+	bottom: 561px;
+	left: -2299px;
+  	-webkit-animation: metro 8s linear infinite;
+  	animation: metro 8s linear infinite;
+}
+.bridge {
+	position: fixed;
+	bottom: 403px;
+}
+.building3-1 {
+	position: fixed;
+	left: 80px;
+	bottom: 330px;
+}
+.building3-2 {
+	position: fixed;
+	left: 2419px;
+	bottom: 330px;
+}
+.building3-3 {
+	position: fixed;
+	left: 6846px;
+	bottom: 330px;
+}
+.building4 {
+	position: fixed;
+	height: 100%;
+	top: 0;
+	left: 0px;
+}
+.building4 .shop1 {
+	position: absolute;
+	bottom: 330px;
+	left: 175px;
+}
+.building4 .shop2 {
+	position: absolute;
+	bottom: 330px;
+	left: 1455px;
+}
+.building4 .fireStation {
+	position: absolute;
+	bottom: 335px;
+	left: 3014px;
+}
+.building4 .police {
+	position: absolute;
+	bottom: 324px;
+	left: 5112px;
+}
+.building4 .tree {
+	position: absolute;
+	bottom: 330px;
+	left: 8142px;
+}
+.building4 .shop4 {
+	position: absolute;
+	bottom: 330px;
+	left: 8204px;
+}
+.building4 .shop3 {
+	position: absolute;
+	bottom: 321px;
+	left: 7656px;
+}
+.street2 {
+	position: fixed;
+	bottom: 290px;
+}
+#cars .bus {
+	position: fixed;
+	bottom: 254px;
+	-webkit-animation: bus 20s linear infinite;
+  	animation: bus 20s linear infinite;
+}
+#cars .carPolice {
+	position: fixed;
+	bottom: 254px;
+	-webkit-animation: carPolice 10s linear infinite;
+  	animation: carPolice 10s linear infinite;
+}
+#cars .carGreen {
+	position: fixed;
+	bottom: 243px;
+	-webkit-animation: carGreen 15s linear infinite;
+  	animation: carGreen 15s linear infinite;
+}
+#cars .carBlue {
+	position: fixed;
+	bottom: 241px;
+	-webkit-animation: carBlue 15s linear infinite;
+  	animation: carBlue 15s linear infinite;
+}
+#cars .man {
+	position: fixed;
+	left: 6938px;
+	bottom: 236px;
+}
+#cars .carFire {
+	position: fixed;
+	bottom: 225px;
+	-webkit-animation: carFire 20s linear infinite;
+  	animation: carFire 20s linear infinite;
+}
+#cars .truck {
+	position: fixed;
+	bottom: 225px;
+	-webkit-animation: truck 20s linear infinite;
+  	animation: truck 20s linear infinite;
+}
+#cars .carRed {
+	position: fixed;
+	bottom: 158px;
+	-webkit-animation: carRed 15s linear infinite;
+  	animation: carRed 15s linear infinite;
+}
+#cars .carYellow {
+	position: fixed;
+	left: -999px;
+	bottom: 162px;
+	-webkit-animation: carYellow 15s linear infinite;
+  	animation: carYellow 15s linear infinite;
+}
+#cars .ambulance {
+	position: fixed;
+	bottom: 153px;
+	-webkit-animation: ambulance 10s linear infinite;
+  	animation: ambulance 10s linear infinite;
+}
+.street {
+	position: fixed;
+	bottom: 0px;
+}
+#footer {
+	position: fixed;
+	bottom: 0;
+}
